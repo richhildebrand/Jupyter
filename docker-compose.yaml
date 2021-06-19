@@ -6,7 +6,7 @@ services:
       context: ./
       dockerfile: Dockerfile
     volumes:
-      - "./notebooks:/home/jovyan"
+      - "./playground:/home/jovyan/notebooks/playground"
       - "./data:/home/jovyan/data"
     ports:
       - "8888:8888"
