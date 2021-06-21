@@ -1,11 +1,20 @@
+Things to try
+Shirkage
+Auto Combine various features
 
-percent	depth	missing_features	log_loss
-0	10	3	feature_7, feature_47	1.762934
-1	10	3	feature_47	1.762744
-2	10	3	feature_0, feature_6, feature_7, feature_11, f...	1.764524
-3	10	6	feature_0, feature_6, feature_7, feature_11, f...	1.778152
-4	10	5	sub .5 - feature_0, feature_6, feature_7, feat...	1.772133
 
+	early_stopping_rounds	learning_rate	max_depth	n_estimators	seed	subsample	missing_columns	train_percent	log_loss
+0	25	0.05	4	100	777	0.8	feature_47, feature_7, feature_41	10.0%	1.765198
+1	25	0.05	3	100	777	0.8	feature_47, feature_7, feature_41	10.0%	1.767728
+2	25	0.05	3	250	777	0.8	feature_47, feature_7	80.0%	1.750769
+3	25	0.05	4	500	777	0.8	feature_47, feature_7	80.0%	1.750218
+4	25	0.05	3	500	777	0.8	feature_47, feature_7	80.0%	1.749678
+5	25	0.05	4	300	777	0.8	feature_47, feature_7	80.0%	1.749346
+6	25	0.05	5	300	777	0.8	feature_47, feature_7	80.0%	1.749655
+7	25	0.05	4	300	777	0.8	feature_47, feature_7	80.0%	1.746734
+8	25	0.05	4	300	777	0.8	feature_47, feature_7, feature_41, feature_22,...	66.0%	1.750781
+9	25	0.05	4	300	777	0.8	feature_47, feature_7, feature_41, feature_22,...	66.0%	1.750926
+10	25	0.05	4	300	777	0.8	feature_47, feature_7, feature_41, feature_22,...	80.0%	1.751434
 
 
 feature_0 : 7
