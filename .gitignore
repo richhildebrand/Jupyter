@@ -1,3 +1,7 @@
+#custom
+*.npy
+logs/
+
 #optuna
 *.pkl
 
